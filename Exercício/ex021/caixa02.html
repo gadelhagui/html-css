@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-image: linear-gradient(90deg, #e6e6e6, #707070);
+        }
+        header{
+            padding: 20px 20px 40px 20px    ;
+            background-color: #a9f0ea;
+            border-radius: 10px;
+        }
+
+        #central{
+            text-align:end;
+            margin-top: -50px;
+        }
+
+        a:hover{
+            color: rgb(240, 167, 167);
+        }
+
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+        .centralizado{
+            text-align: center;
+        }
+
+        main{
+            background-color: lightblue;
+            padding: 20px 50px 30px 50px;
+            margin-top: 30px;
+        }
+
+        div{
+            display: inline-block;
+            width: 300px;
+            height: 350px;
+            background-image: linear-gradient(90deg, #dfdfdf, #acacac);
+            margin: auto;
+        }
+
+        div:hover{
+            background-image: linear-gradient(90deg, #acacac, #dfdfdf);
+        }
+
+        footer{
+            text-align: center;
+            background-color: black;
+            color: wheat;
+            padding: 1px;
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menu do site</h1>
+        <nav id="central">
+            <a href="#serviços">Serviços</a>
+            <a href="#">Loja</a>
+            <a href="#">Ofertas</a>
+        </nav>
+    </header>
+    <main>
+        <section id="serviços">
+            <h2 class="centralizado">Conheça todos os nossos serviços</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur fuga quae voluptates blanditiis ab ducimus animi illum, tempore, minus saepe dolor nostrum, assumenda eligendi reprehenderit necessitatibus neque cum maiores provident!</p>
+            <div class="centralizado">01</div>
+            <div class="centralizado">02</div>
+            <div class="centralizado">03</div>
+        </section>
+        <section id="ofertas">
+            <article>
+                <h2 class="centralizado">Aproveite nossas ofertas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vero quo quidem, nam, consequuntur iure rerum qui a itaque explicabo illo minima, cupiditate impedit et similique. Neque recusandae ut debitis.</p>
+                <aside><p>Feito por manu</p></aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gadelhaguidsr</p>
+    </footer>
+</body>
+</html>

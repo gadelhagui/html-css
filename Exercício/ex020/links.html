@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            background-color: rgb(186, 243, 224);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            background-color: azure;
+            margin: auto;
+            width: 600px;
+            padding: 15px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.288);
+        }
+
+        .importante{
+            text-align: center;
+        }
+
+        main{
+            background-color: white;
+            width: 600px;
+            margin: auto;
+            margin-top: 40px;
+            padding-left: 300px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.288);
+        }
+
+        a{
+            color: rgb(88, 88, 88);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+            transition: 0.5s;
+            background-color: blue;
+        }
+
+        a:active{
+            color: aqua;
+        }
+
+        .especial{
+            background-color: aquamarine;
+        }
+
+        .especial::after{
+            content: ' ☜';
+        }
+
+        .especial::before{
+            content: '☞ ';
+        }
+
+        a::before{
+            content: '☞ ';
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main><h1>Personalizando links</h1>
+        <ul>
+            <li><a href="https://youtube.com" target="_blank" class="especial">Ir ao YouTube</a></li>
+            <li> <a href="https://instagram.com" target="_blank" class="especial">Ir ao Instagram</a></li>
+        </ul>
+    </main>
+    <div>
+        <h1 class="importante">Links importantes!</h1>
+        <ul>
+            <li><a href="https://youtube.com" target="_blank">Ir para o YouTube!</a></li>
+            <li><a href="https://instagram.com" target="_blank">Ir para o Instagram!</a></li>
+        </ul>
+    </div>
+</body>
+</html>
