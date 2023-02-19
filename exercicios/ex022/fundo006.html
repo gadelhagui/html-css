@@ -7,11 +7,25 @@
     <title>Centralizando elementos</title>
     <style>
         #conteiner{
-
+            position: relative;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            height: 550px;
+            background-color: red;
+            padding: 20px;
         }
 
         #conteudo{
-            
+            position: absolute;
+            background-size: 100% 100%;
+            left: 50%;
+            top: 50%    ;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            height: 200px;
+            background-color: orange;
+            width: 400px;   
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
